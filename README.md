@@ -6,6 +6,8 @@ like python-dotenv, just not in your project
 ## usage
 
 ``` bash
+  #!/bin/bash
+
   free-env . # path to .env
   ./my-program 
 ```
