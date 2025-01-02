@@ -1,5 +1,5 @@
 # free-env
-out of process env file manager
+out of program env file manager
 
 like python-dotenv, just not in your project
 
