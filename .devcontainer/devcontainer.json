@@ -1,0 +1,22 @@
+{
+  "name": "free-env-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/nim-asdf:2": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "NimLang.nimlang",
+        "enkia.tokyo-night",
+        "ms-azuretools.vscode-docker",
+        "PKief.material-icon-theme"
+      ]
+    }
+  },
+  "runArgs": [
+    "--name",
+    "free-env-dev"
+  ]
+}

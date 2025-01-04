@@ -1,13 +1,7 @@
-# free-env
-out of program env file manager
-
-like python-dotenv, just not in your project
+# Free-Env
 
 ## usage
 
 ``` bash
-#!/bin/bash
-
-free-env . # path to .env
-./my-program 
+nim c --gcc.option="-static" --gcc.option="-no-pie" --passL:"-static" -d:release -d:ssl main.nim
 ```
